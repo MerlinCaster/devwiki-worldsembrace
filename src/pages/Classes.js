@@ -17,6 +17,7 @@ function Classes() {
                             name={item.name}
                             desc={item.desc}
                             img={item.img}
+                            path={item.path}
                         />
                     </div>
                 )
