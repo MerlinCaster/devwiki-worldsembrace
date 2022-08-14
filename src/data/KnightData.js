@@ -52,38 +52,38 @@ export const KnightData = {
         {
             id: 6,
             type:"passive",
-            name:"Passive",
-            desc:"passive",
+            name:"Vitality",
+            desc:"A cada level, aumenta 1% de vida máxima e +10hp regen quando está com menos de 50% da vida máxima fora de combate",
             icon: require("../images/classes/warrior/knight/icons/p_regen.png")
         },
         {
             id: 7,
             type:"active",
-            name:"Slash",
-            desc:"Golpeia o inimigo com uma forte pancada utilizando o escudo, o atordoando por 1s",
+            name:"Sweeping Strikes",
+            desc:"Golpeia duas vezes sua frente, causando *% Physical Damage e causando Slow Tier2",
             icon: require("../images/classes/warrior/knight/icons/slash.png"),
-            gif: require("../images/classes/warrior/knight/gifs/bash.gif")
+            gif: require("../images/classes/warrior/knight/gifs/SweepingStrikes.gif")
         },
         {
             id: 8,
             type:"passive",
-            name:"Passive",
-            desc:"passive",
+            name:"One-Handed Mastery",
+            desc:"A cada level, utilizando machados, espadas ou martelos de uma mão, aumenta o dano de ataques básicos em +2 Martial Damage",
             icon: require("../images/classes/warrior/knight/icons/p_mastery.png"),
         },
         {
             id: 9,
             type:"active",
             name:"Bash",
-            desc:"Golpeia o inimigo com uma forte pancada utilizando o escudo, o atordoando por 1s",
+            desc:"Golpeia o inimigo com uma forte pancada utilizando o escudo, o atordoando por *s (Parte do dano é calculado pela defesa do escudo)",
             icon: require("../images/classes/warrior/knight/icons/shieldbash.png"),
             gif: require("../images/classes/warrior/knight/gifs/bash.gif")
         },
         {
             id: 10,
             type:"passive",
-            name:"Passive",
-            desc:"passive",
+            name:"Heavy User",
+            desc:"A cada level, aumenta 1% da armadura vida de equipamentos do tipo Heavy.",
             icon: require("../images/classes/warrior/knight/icons/p_block.png"),
         },
         {
@@ -112,40 +112,39 @@ export const KnightData = {
         {
             id: 16,
             type:"active",
-            name:"Ground Smash",
-            desc:"Golpeia o inimigo com uma forte pancada utilizando o escudo, o atordoando por 1s",
+            name:"Shield Clap",
+            desc:"Salta e Golpeia o chão com seu escudo, causando dano em uma grande área e slow Tier3 a todos inimigos. (Parte do dano é calculado pela defesa do escudo)",
             icon: require("../images/classes/warrior/knight/icons/groundsmash.png"),
-            gif: require("../images/classes/warrior/knight/gifs/bash.gif")
+            gif: require("../images/classes/warrior/knight/gifs/ShieldClap.gif")
         },
         {
             id: 17,
             type:"passive",
-            name:"Passive",
-            desc:"passive",
+            name:"Teamplay",
+            desc:"A cada level, aumenta Cooldown Reduction em +1 de membros aliados até 10m de distancia",
             icon: require("../images/classes/warrior/knight/icons/p_teamplay.png"),
         },
         {
             id: 18,
             type:"active",
             name:"Castle of Stone",
-            desc:"Golpeia o inimigo com uma forte pancada utilizando o escudo, o atordoando por 1s",
+            desc:"Assume uma postura defensiva e se mantem imóvel, durante essa postura, ele nega 80% dano recebido, porém não pode se mover ou atacar",
             icon: require("../images/classes/warrior/knight/icons/castleofstone.png"),
-            gif: require("../images/classes/warrior/knight/gifs/bash.gif")
+            gif: require("../images/classes/warrior/knight/gifs/CastleOfStone.gif")
         },
         {
             id: 19,
             type:"passive",
-            name:"Passive",
-            desc:"passive",
+            name:"Recklessness",
+            desc:"A cada level, ganha +2 de resistence a cada 10% da vida perdida",
             icon: require("../images/classes/warrior/knight/icons/p_titanwalk.png")
         },
         {
             id: 20,
             type:"active",
-            name:"Shield Rush",
-            desc:"Golpeia o inimigo com uma forte pancada utilizando o escudo, o atordoando por 1s",
-            icon: require("../images/classes/warrior/knight/icons/shieldrush.png"),
-            gif: require("../images/classes/warrior/knight/gifs/bash.gif")
+            name:"Em Construção...",
+            desc:"Skill ainda em construção",
+            icon: require("../images/classes/warrior/knight/icons/shieldrush.png")
         },
         {
             id: 21,
@@ -181,29 +180,29 @@ export const KnightData = {
             id: 27,
             type:"active",
             name:"Assemble",
-            desc:"Golpeia o inimigo com uma forte pancada utilizando o escudo, o atordoando por 1s",
+            desc:"Todos aliados em até 15m ganham * de MovementSpeed Bonus por 7s e tem sua stamina toda recarregada",
             icon: require("../images/classes/warrior/knight/icons/assemble.png"),
-            gif: require("../images/classes/warrior/knight/gifs/bash.gif")
+            gif: require("../images/classes/warrior/knight/gifs/Assemble.gif")
         },
         {
             id: 28,
             type:"passive",
-            name:"Passive",
-            desc:"passive",
+            name:"Sturdy",
+            desc:"Ao receber um golpe Fatal, o knight anula o golpe e recupera 1% de vida máxima a cada level da passiva, tem 15m de cooldown FIXO (não reduzido por CDR)",
             icon: require("../images/classes/warrior/knight/icons/p_sturdy.png")
         },
         {
             id: 29,
             type:"active",
             name:"Hold!!!",
-            desc:"Golpeia o inimigo com uma forte pancada utilizando o escudo, o atordoando por 1s",
+            desc:"Crava um estandarte de guerra no chão, que ocupa um espaço de 15m AoE, Aliados dentro do Estandarte ganham 10% de dano e defesa, Inimigos tem sua Defesa e dano reduzida em 10%",
             icon: require("../images/classes/warrior/knight/icons/hold.png"),
-            gif: require("../images/classes/warrior/knight/gifs/bash.gif")
+            gif: require("../images/classes/warrior/knight/gifs/Hold.gif")
         },
         {
             id: 30,
             type:"empty"
         },
-    ]
+    ]    
 
 }
