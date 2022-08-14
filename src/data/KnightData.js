@@ -2,16 +2,18 @@ import { StatsData } from "./StatsData"
 const allstats = {StatsData}
 export const KnightData = {
     name: "Knight",
-    descMain: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin efficitur purus lorem, id vehicula leo fringilla sit amet. Quisque nec augue purus.",
-    descSec: "Aenean varius nec turpis quis ornare. Mauris molestie, arcu ac commodo suscipit, metus libero aliquet eros, in pharetra mauris augue ac mi. Integer mollis augue odio, vel aliquam neque porta et. Pellentesque ultricies dui velit, et scelerisque lacus pulvinar ac. Suspendisse mattis pellentesque purus, ac sollicitudin est varius non. Aliquam erat volutpat. Etiam at odio cursus, ornare orci porta, ultrices sapien. In vestibulum rhoncus odio, ut tempor neque ultrices sed. Vestibulum lobortis, ipsum sed semper auctor, nisi nunc auctor urna, vel rutrum lectus lacus ac ipsum. Sed feugiat nisl diam, a efficitur ante vestibulum quis. Donec at turpis non justo maximus rhoncus. In ac maximus tortor. Nam aliquet libero in ex tincidunt porta. Nullam egestas odio sed quam auctor sodales.",
+    descMain: "Utilizando armaduras pesadas, armas de uma mão e escudo, o Knight foi pensado para ser o primeiro tank, com suas caracteristicas vindas de uma classe de liderança, que além de assumir a frente do combate também buffa aliados próximos",
+    descSec: "Sua função no PvE é clara, ele irá manter os inimigos focado em si para que seus aliados possam o derrubar. Ótimo para jogar em grupos, sejam eles pequenos ou grandes. No caso de jogadores Solo, o Knight se torna uma classe um pouco menos performática que outras. Apesar dele ter a vantagem de não receber muito dano e ter uma auto cura sustentavel, ele causa pouco dano, o que seu grind mais lento que o normal porém sustentavel. No PvP ele brilha em todas escalas. No 1v1 por ser uma classe resistente com muito controle, faz com que inimigos que dependam de conjuração acabem sendo penalizados ao enfrentar o Knight. Em combates de média e larga escala o Knight faz a função de um lider, tomando a frente e iniciando as lutas, além de conseguir ter um poder de Chase em grupo utilizando a habilidade Assemble, ele também pode segurar pontos estratégicos como portões, pontes ou escadrias utilizando a habilidade Hold.",
     pros: [
         "Resistente",
         "Iniciador",
+        "Buffer",
         "Fácil de Jogar"
     ],
     cons: [
         "Lento",
-        "Baixo Dano"
+        "Baixo Dano",
+        "Dependente de Gear",
     ],
     ref1: require("../images/classes/warrior/knight/ref1.png"),
     ref2: require("../images/classes/warrior/knight/ref2.jpg"),
