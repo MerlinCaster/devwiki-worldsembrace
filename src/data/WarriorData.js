@@ -7,25 +7,25 @@ export const WarriorData = {
             name: "Knight",
             desc: "Um tanker, controlador e iniciador. Perfeito para o capitão de um grupo",
             img: require("../images/classes/warrior/Knight.jpg"),
-            path: "/classes/subclass/knight"
+            path: "/#/classes/subclass/knight"
         },
         {
             name: "Slayer",
             desc: "Em Breve...",
             img: require("../images/classes/warrior/Slayer.jpg"),
-            path: "/incoming"
+            path: "/#/incoming"
         },
         {
             name: "Barbarian",
             desc: "Em Breve...",
             img: require("../images/classes/warrior/Barbarian.jpg"),
-            path: "/incoming"
+            path: "/#/incoming"
         },
         {
             name: "Samurai",
             desc: "Em Breve...",
             img: require("../images/classes/warrior/Samurai.jpg"),
-            path: "/incoming"
+            path: "/#/incoming"
         },
     ],
     attrs: [

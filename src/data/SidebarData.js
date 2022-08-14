@@ -7,22 +7,22 @@ import { HiLightBulb } from "react-icons/hi";
 export const SidebarData = [
     {
         name:"Home",
-        path:"/",
+        path:"/#/",
         icon: <AiFillHome/>
     },
     {
         name:"Classes",
-        path:"/classes",
+        path:"/#/classes",
         icon: <GiSwordsEmblem/>
     },
     {
         name:"Attributes",
-        path:"/attrs",
+        path:"/#/attrs",
         icon: <GiSkills/>
     },
     {
         name:"Ideias",
-        path:"/ideias",
+        path:"/#/ideias",
         icon: <HiLightBulb/>
     },
 ]
