@@ -1,9 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.5f30cace.css",
-    "main.js": "/static/js/main.d570f9a8.js",
+    "main.js": "/static/js/main.202e854e.js",
     "static/js/787.d45e7c7c.chunk.js": "/static/js/787.d45e7c7c.chunk.js",
+    "static/media/SweepingStrikes.gif": "/static/media/SweepingStrikes.8c3f7812c41a276c2bf7.gif",
+    "static/media/ShieldClap.gif": "/static/media/ShieldClap.68a53d646c42a97ef667.gif",
     "static/media/bash.gif": "/static/media/bash.15a4a33406766125045c.gif",
+    "static/media/CastleOfStone.gif": "/static/media/CastleOfStone.522a6336d604f27c70ed.gif",
+    "static/media/Hold.gif": "/static/media/Hold.1ba0b27015b56c7c8f36.gif",
+    "static/media/Assemble.gif": "/static/media/Assemble.b07bc3f1af569f6853fe.gif",
     "static/media/ref1.png": "/static/media/ref1.2847420b59b984db51a7.png",
     "static/media/WarriorIcon.png": "/static/media/WarriorIcon.e72d64ac8fc21a78d69c.png",
     "static/media/shieldbash.png": "/static/media/shieldbash.55e1d34c8a651ea5158e.png",
@@ -43,11 +48,11 @@
     "static/media/SpiritualistImg.png": "/static/media/SpiritualistImg.19de57f42f7f802b891d.png",
     "index.html": "/index.html",
     "main.5f30cace.css.map": "/static/css/main.5f30cace.css.map",
-    "main.d570f9a8.js.map": "/static/js/main.d570f9a8.js.map",
+    "main.202e854e.js.map": "/static/js/main.202e854e.js.map",
     "787.d45e7c7c.chunk.js.map": "/static/js/787.d45e7c7c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5f30cace.css",
-    "static/js/main.d570f9a8.js"
+    "static/js/main.202e854e.js"
   ]
 }
