@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5f30cace.css",
-    "main.js": "/static/js/main.202e854e.js",
+    "main.css": "/static/css/main.50f266a8.css",
+    "main.js": "/static/js/main.5899a803.js",
     "static/js/787.d45e7c7c.chunk.js": "/static/js/787.d45e7c7c.chunk.js",
     "static/media/SweepingStrikes.gif": "/static/media/SweepingStrikes.8c3f7812c41a276c2bf7.gif",
     "static/media/ShieldClap.gif": "/static/media/ShieldClap.68a53d646c42a97ef667.gif",
@@ -47,12 +47,12 @@
     "static/media/p2e.png": "/static/media/p2e.43688227a9cff50c8169.png",
     "static/media/SpiritualistImg.png": "/static/media/SpiritualistImg.19de57f42f7f802b891d.png",
     "index.html": "/index.html",
-    "main.5f30cace.css.map": "/static/css/main.5f30cace.css.map",
-    "main.202e854e.js.map": "/static/js/main.202e854e.js.map",
+    "main.50f266a8.css.map": "/static/css/main.50f266a8.css.map",
+    "main.5899a803.js.map": "/static/js/main.5899a803.js.map",
     "787.d45e7c7c.chunk.js.map": "/static/js/787.d45e7c7c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5f30cace.css",
-    "static/js/main.202e854e.js"
+    "static/css/main.50f266a8.css",
+    "static/js/main.5899a803.js"
   ]
 }
