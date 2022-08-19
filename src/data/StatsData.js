@@ -3,7 +3,7 @@ export const StatsData = {
         name:"Strength",
         desc:"aumenta a força de ataque de armas do tipo Marcial",
         level:"5/5",
-        icon: require("../images/str.png"),
+        icon: require("../images/str2.png"),
     },
     dex:{
         name:"Dexterity",

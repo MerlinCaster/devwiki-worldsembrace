@@ -12,10 +12,10 @@ function Skills(props) {
        
   return (
     <>
-        <div className="h-full grid grid-cols-2 gap-2 p-5">
-            <div className='p-6'>
+        <div className="h-full grid grid-cols-4 gap-2 p-5">
+            <div className='p-6 col-span-1'>
                 <div className="p-6 max-w-full text-white rounded-lg border shadow-md bg-slate-900 border-slate-700">
-                    <div className="grid grid-cols-5 gap-5 content-center justify-items-center place-content-center">
+                    <div className="grid grid-cols-3 gap-3 content-center justify-items-center place-content-center">
                         {props.skillclass?.map((item) => {
                             switch (item.type) {
                                 case 'active':
@@ -54,7 +54,7 @@ function Skills(props) {
                 </div>
             </div>
 
-            <div className='p-6'>
+            <div className='p-6 col-span-3'>
                 {SkillSettings.name
                     ?
                     <div className="p-6 max-w-full rounded-lg border shadow-md bg-slate-900 border-slate-700">

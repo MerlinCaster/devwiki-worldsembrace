@@ -8,19 +8,19 @@ export const ClassData = [
     {
         name:"Spellcaster",
         desc:"Guerreiros formidaveis, que lidar com armas corpo a corpo e enfrentar os desafios destemidamente",
-        img: require("../images/RangerImg.png"),
+        img: require("../images/SpellcasterImg.png"),
         path:"/#/classes/spellcaster"
     },
     {
         name:"Ranger",
         desc:"Guerreiros formidaveis, que lidar com armas corpo a corpo e enfrentar os desafios destemidamente",
-        img: require("../images/SpiritualistImg.png"),
+        img: require("../images/RangerImg.png"),
         path:"/#/classes/ranger"
     },
     {
         name:"Spiritualist",
         desc:"Guerreiros formidaveis, que lidar com armas corpo a corpo e enfrentar os desafios destemidamente",
-        img: require("../images/SpellcasterImg.png"),
+        img: require("../images/SpiritualistImg.png"),
         path:"/#/classes/spiritualist"
     },
     {
