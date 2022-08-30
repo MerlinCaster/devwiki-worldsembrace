@@ -1,6 +1,7 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
 import { KnightData } from '../data/KnightData';
+import { ArcherData } from '../data/ArcherData';
 import Skills from '../components/Skills';
 
 function CharSubClass() {
@@ -10,6 +11,9 @@ function CharSubClass() {
   switch (handle) {
     case 'knight':
       subClassProps = KnightData;
+      break;
+    case 'archer':
+      subClassProps = ArcherData;
       break;
     default:
   }

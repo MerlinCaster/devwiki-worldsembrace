@@ -1,6 +1,7 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
 import { WarriorData } from '../data/WarriorData';
+import { RangerData } from '../data/RangerData';
 import CardSubClass from '../components/CardSubClass';
 
 function CharClass() {
@@ -10,6 +11,9 @@ function CharClass() {
   switch (handle) {
     case 'warrior':
       classProps = WarriorData;
+      break;
+    case 'ranger':
+      classProps = RangerData;
       break;
     default:
   }
