@@ -2,6 +2,7 @@ import React from 'react'
 import { useParams } from 'react-router-dom'
 import { KnightData } from '../data/KnightData';
 import { HunterData } from '../data/HunterData';
+import { PyromancerData } from '../data/PyromancerData';
 import Skills from '../components/Skills';
 
 function CharSubClass() {
@@ -14,6 +15,9 @@ function CharSubClass() {
       break;
     case 'hunter':
       subClassProps = HunterData;
+      break;
+    case 'pyromancer':
+      subClassProps = PyromancerData;
       break;
     default:
   }

@@ -2,6 +2,7 @@ import React from 'react'
 import { useParams } from 'react-router-dom'
 import { WarriorData } from '../data/WarriorData';
 import { RangerData } from '../data/RangerData';
+import { SpellcasterData } from '../data/SpellcasterData';
 import CardSubClass from '../components/CardSubClass';
 
 function CharClass() {
@@ -14,6 +15,9 @@ function CharClass() {
       break;
     case 'ranger':
       classProps = RangerData;
+      break;
+    case 'spellcaster':
+      classProps = SpellcasterData;
       break;
     default:
   }

@@ -112,7 +112,7 @@ export const HunterData = {
             id: 13,
             type:"passive",
             name:"Roll Shot",
-            desc:"Ao utilizar o tumble, recebe o buff de Roll Shot, quando acertar um alvo inimigo com o buff de Roll Shot o hunter ganha x stamina e x% de movement speed por 2s",
+            desc:"Ao utilizar o tumble, recebe o buff de Roll Shot, quando acertar um alvo inimigo com o buff de Roll Shot o hunter ganha x stamina e x% de movement speed por 2s   	    ",
             icon: require("../images/classes/ranger/hunter/icons/rollspeed.png")
         },
         {
